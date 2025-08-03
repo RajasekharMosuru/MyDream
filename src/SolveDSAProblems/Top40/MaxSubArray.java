@@ -1,4 +1,4 @@
-package SolveDSAProblems;
+package SolveDSAProblems.Top40;
 
 public class MaxSubArray {
     //kadane's algorithm
