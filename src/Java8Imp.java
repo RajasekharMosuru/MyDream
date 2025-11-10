@@ -21,9 +21,9 @@ public class Java8Imp {
         Optional<Integer> secondLargNo = numbers.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst();
         secondLargNo.ifPresent(System.out::println);*/
 
-       /* List<String> words = Arrays.asList("apple", "banana", "cherry", "date");
+      /*  List<String> words1 = Arrays.asList("apple", "banana", "cherry", "date");
         //String bigWord = words.stream().collect(Collectors.joining(","));
-        String bigWord = String.join(",", words);
+        String bigWord = String.join(",", words1);
         System.out.println(bigWord);*/
 
         //Given a list of strings, write a Java 8 Stream program to find the longest string in the list.
