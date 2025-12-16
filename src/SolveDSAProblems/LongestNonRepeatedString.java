@@ -6,6 +6,7 @@ public class LongestNonRepeatedString {
         String str = "sunilkumarmishra";
         System.out.println("Length of longest substring => "+longestSubstringWithoutRepeatingChars(str));
 
+
     }
     private static int longestSubstringWithoutRepeatingChars(String str) {
         int maxLength = 0;
